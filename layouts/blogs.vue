@@ -1,17 +1,28 @@
 <template>
 <div class="container-fluid bg-dark" style="height:100vh">
-  <div class="d-flex justify-content-between p-3 bg-light rounded container">
-    <h4><nuxt-link to="/">Nuxt Js</nuxt-link></h4>
-    <div class="col-md-8 d-flex justify-content-between">
-      <h5><nuxt-link to="/about">About Us</nuxt-link></h5>
-      <h5><nuxt-link to="/contact">Contact Us</nuxt-link></h5>
-      <h5><nuxt-link to="/all-blogs">All Blogs</nuxt-link></h5>
-    </div>
-  </div>
+ <mainNav></mainNav>
     <Nuxt />
 </div>
 </template>
 
 <style>
 
+/* custom styles for layouts-blog */
+
+.gradient-layout{
+  font-weight: bold;
+  color: black;
+  background: linear-gradient(to bottom , gray, salmon);
+}
+
 </style>
+
+<script>
+
+  import mainNav from '../components/mainNav'
+  export default{
+    components : {
+      mainNav
+    }
+  }
+  </script>

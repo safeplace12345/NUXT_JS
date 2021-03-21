@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-6 m-auto">
-        <div class="card">
+        <div class="card gradient-layout">
             <div class="card-header">
                 <div class="card-title">
             <h1>Custom Layouts.....</h1>

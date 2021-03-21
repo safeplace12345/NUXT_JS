@@ -1,10 +1,12 @@
 <template>
-<div class="card">
+<div class="container card gradient-four">
     <div class="card-header">
         <div class="card-title">
     <h1>Blog Post Four.....</h1>
         </div>
         <div class="card-body">
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident perspiciatis et consequatur illum quos accusamus fugit laboriosam odio quod non dolores doloribus magni incidunt, amet tenetur officia velit molestiae quam!</p>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident perspiciatis et consequatur illum quos accusamus fugit laboriosam odio quod non dolores doloribus magni incidunt, amet tenetur officia velit molestiae quam!</p>
     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident perspiciatis et consequatur illum quos accusamus fugit laboriosam odio quod non dolores doloribus magni incidunt, amet tenetur officia velit molestiae quam!</p>
 
         </div>
